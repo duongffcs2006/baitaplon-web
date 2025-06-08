@@ -1,0 +1,84 @@
+<!-- +Thiết kế giao diện trang chủ, trang danh mục, trang
+chi tiết, trang giỏ hang, trang đặt hàng
+    +Thiết kế trang quản trị: trang chủ, trang quản lý, trang
+đơn hàng
+    +Sử dụng JavaScripts để kiểm tra tính hợp lệ của dữ
+liệu và các nội dung khác theo yêu cầu của giảng viên -->
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ  |  Dương Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="logo">
+        <img src="logo.png" alt="Logo-Dương Store" id="logo">
+    </div>
+    
+    <div class="menu">
+        <a href="danhmuc.html">☰ Danh mục</a>
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Nhập tên điện thoại cần tìm....">
+        <button>🔍</button>
+    </div>
+    <div class="user-cart">
+        <a href="nguoidung.html">👤</a>
+        <a href="Giohang.html">🛒 Giỏ hàng</a>
+    </div>
+    <div class="suggestions">
+        iphone 16 | laptop | apple watch | ipad | máy lạnh | carseat | samsung | quạt điều hòa
+    </div>
+
+    
+</header>
+
+    <main id="content">
+        <h1>Chào mừng đến với Dương Store</h1>
+        
+        <section class="featured-products">
+            <h2>Sản phẩm nổi bật</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/iphone15.jpg" alt="iPhone 15 Pro Max">
+                    <h3>iPhone 15 Pro Max</h3>
+                    <p class="price">29.990.000₫</p>
+                    <button class="add-to-cart">Thêm vào giỏ</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/samsung-s24.jpg" alt="Samsung Galaxy S24 Ultra">
+                    <h3>Samsung Galaxy S24 Ultra</h3>
+                    <p class="price">27.990.000₫</p>
+                    <button class="add-to-cart">Thêm vào giỏ</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/macbook.jpg" alt="MacBook Pro M3">
+                    <h3>MacBook Pro M3</h3>
+                    <p class="price">42.990.000₫</p>
+                    <button class="add-to-cart">Thêm vào giỏ</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/airpods.jpg" alt="AirPods Pro 2">
+                    <h3>AirPods Pro 2</h3>
+                    <p class="price">5.990.000₫</p>
+                    <button class="add-to-cart">Thêm vào giỏ</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer"  >
+        <p>&copy; 2025 Bản quyền thuộc Đỗ Công Dương. <br>
+            Điện thoại: 0399510118</p>
+    </footer>
+    <script scr="main.js"></script>
+</body>
+</html>
